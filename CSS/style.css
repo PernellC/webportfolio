@@ -1,0 +1,135 @@
+/*
+Colors used:
+Primary Color (nickle): #5F7470;
+Secondary Color (quartz): #4F4A46;
+Background Color (white): #FFFBFE;
+Footer Color (gunmetal): #2B303A;
+Link Color (trolley grey): #7A7C7C;
+*/
+
+body {
+  background-color: #FFFBFE;
+  font-family: 'questrial', san-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-weight: 1.6;
+  color: #6A7480;
+}
+
+header {
+  background-color: #5F7470;
+  font-family: 'ledger', sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4F4A46;
+}
+footer {
+  background-color: #2B303A;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-family: 'ledger', sans-serif;
+  font-size:2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'ledger', sans-serif;
+  font-size: 2.25em;
+  font-weight: 650;
+}
+
+h3 {
+    font-family: 'ledger', sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #6A7480;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: #ffffff;
+}
+
+a:hover
+a:focus{
+  color: #ffffff;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #ffffff;
+}
+.signature {
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 2.5em;
+  font-weight: 250;
+}
+.hero {
+  background-color: #4F4A46;
+  color: #FFFBFE;
+}
+.work {
+  background-color: #5F7470;
+  color: #ffffff;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  color: #ffffff; /* needed to override the default link color */
+  background-color: #7A7D7D;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #727575; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  color: #ffffff;
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+.button.contact {
+  color: #FFFBFE !important;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 2px solid #FFFBFE;
+}
+.button.contact:hover {
+  color: #2B303A !important;
+  background-color: #FFFBFE;
+  border: 2px solid #FFFBFE;
+}
+.button.resume {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  color: #ffffff; /* needed to override the default link color */
+  background-color: #5F7470;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #5F7470; /* width of the border, type, color */
+  transition: 0.2s opacity;
+  text-transform: uppercase;
+}
+.button.resume:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
