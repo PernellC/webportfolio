@@ -134,6 +134,37 @@ a:active { /* selected link */
   opacity: 0.8;
   text-decoration: none;
 }
+
+/* layout styling */
+
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0;
+}
+.about-body {
+
+}
+.fitted {
+  font-family: 'Faster One', cursive;
+  text-transform: uppercase;
+  color: #B35000;
+}
+.xpert {
+  font-family: 'Yellowtail', cursive;
+  color: #69768C;
+}
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #5F7470
+}
+
+#contact-section .container {
+  padding: 0 15px;
+}
+
+/*text alignment*/
 #hero {
   background-color: #4F4A46;
   color: #FFFBFE;
