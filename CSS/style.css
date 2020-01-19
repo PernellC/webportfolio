@@ -89,7 +89,20 @@ a:focus{
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:active { /* selected link */
-  color: #ffffff;
+  color: orange;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+  font-size:.52em
+}
+nav > ul > li > a {
+  padding:0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .signature {
   font-family: 'Mr Dafoe', cursive;
