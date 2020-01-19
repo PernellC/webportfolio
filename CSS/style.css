@@ -6,7 +6,9 @@ Background Color (white): #FFFBFE;
 Footer Color (gunmetal): #2B303A;
 Link Color (trolley grey): #7A7C7C;
 */
-
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #FFFBFE;
   font-family: 'questrial', san-serif;
