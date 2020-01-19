@@ -79,7 +79,7 @@ nav {
   width: 100%;
 }
 
-a:visited { /* visited link */
+nav > ul > li > a:visited { /* visited link */
   color: #ffffff;
 }
 
