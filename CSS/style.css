@@ -74,6 +74,10 @@ a {
   color: #6A7480;
   text-decoration: none; /* No underlining */
 }
+nav {
+  display: inline-block;
+  width: 100%;
+}
 
 a:visited { /* visited link */
   color: #ffffff;
