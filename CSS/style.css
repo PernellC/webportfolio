@@ -35,6 +35,9 @@ footer {
   background-color: #2B303A;
   color: #ffffff;
 }
+main {
+  padding-top: 133px;
+}
 
 h1, h2, h3, h4 {
   line-height: 1.4;
