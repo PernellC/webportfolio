@@ -194,7 +194,7 @@ nav > ul > li > a {
 }
 
 /*text alignment*/
-#hero {
+#hero .container {
   background-color: #4F4A46;
   color: #FFFBFE;
   padding: 20px 0;
