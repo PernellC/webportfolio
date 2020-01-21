@@ -34,6 +34,8 @@ header {
 footer {
   background-color: #2B303A;
   color: #ffffff;
+  padding: 0 10px;
+  margin: 0 10px;
 }
 main {
   padding-top: 133px;
