@@ -112,6 +112,10 @@ nav > ul > li > a {
   background-color: #5F7470;
   color: #ffffff;
 }
+.social {
+  display: inline-block;
+  list-style-type: none;
+}
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   color: #ffffff; /* needed to override the default link color */
