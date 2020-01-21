@@ -106,6 +106,7 @@ nav > ul > li > a {
 .hero {
   background-color: #4F4A46;
   color: #FFFBFE;
+  padding: 0 15px;
 }
 .work {
   background-color: #5F7470;
