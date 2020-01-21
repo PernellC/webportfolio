@@ -197,7 +197,8 @@ nav > ul > li > a {
 #hero .container {
   background-color: #4F4A46;
   color: #FFFBFE;
-  padding: 20px 0;
+  padding: 0 10px;
+  margin: 0 10px;
   display: inline-block;
 }
 #hero h1 {
