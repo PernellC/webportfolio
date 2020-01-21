@@ -17,7 +17,6 @@ body {
   line-weight: 1.6;
   color: #6A7480;
 }
-
 header {
   background-color: #5F7470;
   color: #FFFBFE;
@@ -32,7 +31,6 @@ header {
   position: fixed;
   width: 100%;
 }
-
 footer {
   background-color: #2B303A;
   color: #ffffff;
@@ -44,34 +42,28 @@ main {
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
-
 h1 {
   font-family: 'ledger', sans-serif;
   font-size:2.75em;
   font-weight: 700;
 }
-
 h2 {
   font-family: 'ledger', sans-serif;
   font-size: 2.25em;
   font-weight: 650;
 }
-
 h3 {
     font-family: 'ledger', sans-serif;
   font-size: 1.75em;
   font-weight: 600;
 }
-
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
 img {
   width: 100%;
 }
-
 a {
   color: #FFFBFE;
   text-decoration: none; /* No underlining */
@@ -80,11 +72,9 @@ nav {
   display: inline-block;
   width: 100%;
 }
-
 nav > ul > li > a:visited { /* visited link */
   color: #ffffff;
 }
-
 nav > ul > li > a:hover
 a:focus{
   color: orange;
@@ -112,7 +102,6 @@ nav > ul > li > a {
   font-size: 1.60em;
   max-width: 250px;
 }
-
 .hero {
   background-color: #4F4A46;
   color: #FFFBFE;
@@ -121,7 +110,6 @@ nav > ul > li > a {
   background-color: #5F7470;
   color: #ffffff;
 }
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   color: #ffffff; /* needed to override the default link color */
@@ -163,9 +151,7 @@ nav > ul > li > a {
   opacity: 0.8;
   text-decoration: none;
 }
-
 /* layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -173,7 +159,6 @@ nav > ul > li > a {
   margin: 25px 0;
 }
 .about-body {
-
 }
 .fitted {
   font-family: 'Faster One', cursive;
@@ -188,11 +173,9 @@ nav > ul > li > a {
   padding-bottom: 25px;
   border-bottom: 1px solid #5F7470
 }
-
 #contact-section .container {
   padding: 0 15px;
 }
-
 /*text alignment*/
 #hero .container {
   background-color: #4F4A46;
