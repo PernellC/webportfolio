@@ -23,6 +23,7 @@ header {
   font-family: 'ledger', sans-serif;
   font-size: 1.50em;
   font-weight: 700;
+  width: 100%;
   padding: 0 10px;
   margin: 0 10px;
   border-bottom: 3px solid #4F4A46;
@@ -33,6 +34,7 @@ header {
 footer {
   background-color: #2B303A;
   color: #ffffff;
+  width: 100%;
   padding: 0 10px;
   margin: 0 10px;
 }
@@ -185,6 +187,7 @@ nav > ul > li > a {
 #hero .container {
   background-color: #4F4A46;
   color: #FFFBFE;
+  width: 100%;
   padding: 0 10px;
   margin: 0 10px;
   display: inline-block;
