@@ -8,6 +8,7 @@ Link Color (trolley grey): #7A7C7C;
 */
 * {
   box-sizing: border-box;
+  padding: 10
 }
 body {
   background-color: #FFFBFE;
@@ -23,25 +24,23 @@ header {
   font-family: 'ledger', sans-serif;
   font-size: 1.50em;
   font-weight: 700;
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: 10px;
   border-bottom: 3px solid #4F4A46;
   text-align: center;
   box-shadow: 0px 4px 11px 0px rgba(122, 124, 124, 0.5);
   position: fixed;
+  width: 100%;
 }
 footer {
   background-color: #2B303A;
   color: #ffffff;
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 10px;
+  padding: 10px;
+  margin: 10px;
 }
 main {
   padding-top: 133px;
 }
-
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -103,7 +102,7 @@ nav > ul > li > a {
   font-family: 'Mr Dafoe', cursive;
   font-weight: 250;
   font-size: 1.40em;
-  max-width: 250px;
+  padding: 10px;
 }
 .hero {
   background-color: #4F4A46;
@@ -111,8 +110,7 @@ nav > ul > li > a {
   padding: 0 15px;
 }
 .work {
-  background-color: #5F7470;
-  color: #ffffff;
+  color: #5F7470;
 }
 .social {
   display: inline-block;
@@ -161,7 +159,7 @@ nav > ul > li > a {
 }
 /* layout styling */
 .container {
-  padding: 0 15px;
+  padding: 10px;
 }
 .row {
   margin: 25px 0;
@@ -187,14 +185,54 @@ nav > ul > li > a {
 #hero .container {
   background-color: #4F4A46;
   color: #FFFBFE;
-  width: 100%;
-  padding: 0 10px;
-  margin: 0 10px;
-  display: inline-block;
+  padding: 10px;
+  margin: 10px;
 }
 #hero h1 {
   text-align: center;
   margin: 0;
   padding: 0.67em 0;
   font-size: 32px;
+}
+/* screen breakpoints*/
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding:25px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  main {
+    padding-top: 99px;
+  }
+  body {
+    font-size: 18px;
+  }
+  .signature {
+  margin-top: 4px 0;
+  }
+  #hero {
+    text-align: center;
+  }
+  #hero span {
+    display: block;
+  }
+  .col-md-6 {
+  width: 50%;
+  }
+  [class*="col-"] {
+   float: left;
+   }
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+   }
+ }
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
 }
