@@ -157,6 +157,12 @@ nav > ul > li > a {
 .container {
   padding: 10px;
 }
+.header-container {
+  padding: 0 10px;
+  width: 100%;
+  display: inline-block;
+  position: fixed;
+}
 .row {
   margin: 25px 0;
 }
