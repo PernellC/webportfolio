@@ -110,6 +110,38 @@ nav > ul > li > a {
   display: inline-block;
   list-style-type: none;
 }
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height:auto;
+}
+.sun {
+  animation: 5s color-change infinite alternate linear;
+/*animation-duration: 4s;
+animation-name: color-change;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: linear;*/ !this is the long way
+}
+@keyframes color-change {
+0% {fill: #edc655;}
+50% {fill: #fcffad;}
+100% {fill: #f98a4d;}
+}
+.cloud-front {
+animation: 40s cloud-move infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-back {
+animation: 35s cloud-move-reverse infinite alternate linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,40px);}
+  to {transform: translate(100px,40px);}
+}
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   color: #ffffff; /* needed to override the default link color */
