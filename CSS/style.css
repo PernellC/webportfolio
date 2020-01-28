@@ -151,6 +151,9 @@ animation: 35s cloud-move-reverse infinite alternate linear;
   border-radius: 3px;
   border-bottom: 2px solid #727575; /* width of the border, type, color */
   transition: 0.2s opacity;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 .button:hover {
   color: #ffffff;
