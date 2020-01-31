@@ -304,13 +304,13 @@ animation: 35s cloud-move-reverse infinite alternate linear;
   .col-lg-7 {
   width: 60%;
   }
-  .col-lg-5 {
+  /*.col-lg-5 {
   width: 40%;
+  }*/
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
   }
-  /*[class*="col-"] {
-   float: left;
-   padding: 10px;
-   }*/
    .row::after {
      content: "";
      clear: both;
