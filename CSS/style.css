@@ -293,7 +293,7 @@ animation: 35s cloud-move-reverse infinite alternate linear;
     font-size: 20px;
   }
   .signature {
-  margin-top: 4px 0;
+  margin-top: 4px;
   }
   #hero {
     text-align: center;
