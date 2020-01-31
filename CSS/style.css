@@ -14,7 +14,7 @@ body {
   font-family: 'questrial', san-serif;
   font-size: 16px;
   font-weight: 300;
-  line-weight: 1.6;
+  line-height: 1.6;
   color: #6A7480;
 }
 header {
@@ -47,7 +47,7 @@ h1 {
 h2 {
   font-family: 'ledger', sans-serif;
   font-size: 24px;
-  font-weight: 650;
+  font-weight: 600;
 }
 h3 {
     font-family: 'ledger', sans-serif;
