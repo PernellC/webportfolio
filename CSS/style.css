@@ -122,7 +122,7 @@ nav > ul > li > a {
 animation-name: color-change;
 animation-iteration-count: infinite;
 animation-direction: alternate;
-animation-timing-function: linear;*/ !this is the long way
+animation-timing-function: linear; this is the long way*/
 }
 @keyframes color-change {
 0% {fill: #edc655;}
