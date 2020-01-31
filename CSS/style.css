@@ -86,7 +86,7 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
-  font-size:.52em
+  font-size:.52em;
 }
 nav > ul > li > a {
   padding:0 10px;
