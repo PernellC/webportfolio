@@ -242,7 +242,6 @@ animation: 35s cloud-move-reverse infinite alternate linear;
   }
   nav {
     width: auto;
-    float: right
     margin-top: 4px;
     padding-left: 50px;
   }
@@ -283,7 +282,6 @@ animation: 35s cloud-move-reverse infinite alternate linear;
   }
   nav {
     width: auto;
-    float: right
     margin-top: 4px;
     padding-left: 378px;
   }
