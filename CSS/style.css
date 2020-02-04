@@ -120,6 +120,8 @@ nav > ul > li > a {
   font-size: 20px;
   padding-right: 0;
 }
+.icon {
+  color: #FFFBFE;
 }
 .hero {
   background-color: #4F4A46;
