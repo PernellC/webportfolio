@@ -286,6 +286,9 @@ animation: 35s cloud-move-reverse infinite alternate linear;
     display: inline-block;
     font-size:.52em;
   }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
   }
   #hero {
     text-align: center;
