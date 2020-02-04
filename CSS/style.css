@@ -68,9 +68,10 @@ a {
 nav > ul > li > a:visited { /* visited link */
   color: #ffffff;
 }
-nav > ul > li > a:hover
-a:focus{
-  color: orange;
+
+a:hover,
+a:focus {
+  color: white;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:active { /* selected link */
@@ -279,9 +280,7 @@ animation: 35s cloud-move-reverse infinite alternate linear;
     padding: 10px;
     min-width: 641px;
   }
-  nav > ul {
-    margin: 1em 0;
-  }
+
   nav > ul > li {
     display: inline-block;
     font-size:.52em;
