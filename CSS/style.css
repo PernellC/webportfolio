@@ -260,7 +260,7 @@ animation: 35s cloud-move-reverse infinite alternate linear;
 @media only screen and (min-width: 641px) {
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 8px 0 20px;
   }
   nav {
     width: auto;
