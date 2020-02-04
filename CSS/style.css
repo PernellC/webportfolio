@@ -273,6 +273,7 @@ animation: 35s cloud-move-reverse infinite alternate linear;
     font-size: 20px;
   }
   .signature {
+  max-width: 250px;
   }
   .container {
     max-width: 1200px;
