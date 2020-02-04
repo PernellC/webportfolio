@@ -113,6 +113,13 @@ nav > ul > li > a {
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
 }
 .hero {
   background-color: #4F4A46;
