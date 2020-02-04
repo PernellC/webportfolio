@@ -169,8 +169,8 @@ animation: 35s cloud-move-reverse infinite alternate linear;
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  color: #ffffff; /* needed to override the default link color */
-  background-color: #7A7D7D;
+  color: #fff; /* needed to override the default link color */
+  background-color: #5f7470;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
