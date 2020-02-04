@@ -279,6 +279,9 @@ animation: 35s cloud-move-reverse infinite alternate linear;
     padding: 10px;
     min-width: 641px;
   }
+  nav > ul {
+    margin: 1em 0;
+  }
   }
   #hero {
     text-align: center;
