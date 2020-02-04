@@ -265,7 +265,7 @@ animation: 35s cloud-move-reverse infinite alternate linear;
   nav {
     width: auto;
     margin-top: 4px;
-    padding-left: 50px;
+    float: right;
   }
   main {
     padding-top: 99px;
