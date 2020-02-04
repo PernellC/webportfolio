@@ -96,6 +96,9 @@ nav > ul > li > a {
   margin-top: 4px;
   max-width: 150px;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 }
 .hero {
   background-color: #4F4A46;
