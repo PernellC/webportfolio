@@ -143,7 +143,8 @@ nav > ul > li > a {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #5f7470;
+  border-top: 1px solid #fffbfe;
+  transition: all 0.5s ease-in;
 }
 
 .navtoggle.responsive li:last-child {
