@@ -122,10 +122,6 @@ nav > ul > li > a {
   display: none;
 }
 
-.navtoggle.responsive li:not(:last-child) {
-  display: block;
-}
-
 .navtoggle li .icon {
   position: absolute;
   right: 0;
