@@ -150,10 +150,6 @@ nav > ul > li > a {
   padding: 0 0 10px;
 }
 
-.navtoggle.responsive li:not(:last-child) {
-  display: block;
-}
-
 .hero {
   background-color: #4f4a46;
   color: #fffbfe;
