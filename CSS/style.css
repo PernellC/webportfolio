@@ -368,6 +368,15 @@ animation-timing-function: linear; this is the long way */
     display: none;
   }
 
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border-top: 0;
+  }
+
   #hero {
     text-align: center;
   }
