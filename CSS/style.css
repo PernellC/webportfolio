@@ -106,6 +106,7 @@ nav > ul > li > a {
   padding: 0 10px;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: 'questrial', san-serif;
 }
 
 .signature {
@@ -383,10 +384,12 @@ animation-timing-function: linear; this is the long way */
 
   #hero span {
     display: block;
+    text-align: center;
   }
 
   #hero .container {
     width: auto;
+    text-align: center;
   }
 
   #contact-section .social li {
