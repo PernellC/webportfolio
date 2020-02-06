@@ -77,10 +77,10 @@ img {
 
 a {
   color: #fffbfe;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
 }
 
-nav > ul > li > a:visited { /* visited link */
+nav > ul > li > a:visited {
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
   color: orange;
 }
 
