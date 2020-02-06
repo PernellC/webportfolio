@@ -159,11 +159,6 @@ nav > ul > li > a {
   color: #5f7470;
 }
 
-.social {
-  display: inline-block;
-  list-style-type: none;
-}
-
 .berlin-illustration {
   width: 100%;
   max-width: 100%;
@@ -223,7 +218,6 @@ animation-timing-function: linear; this is the long way */
   text-decoration: none;
 }
 
-.button.contact {
 .email {
   color: #fffbfe;
   background-color: transparent;
@@ -237,7 +231,6 @@ animation-timing-function: linear; this is the long way */
   transition-property: background-color;
 }
 
-.button.contact:hover {
 .email:hover {
   color: #2b303a;
   background-color: #fffbfe;
