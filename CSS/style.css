@@ -401,6 +401,11 @@ animation-timing-function: linear; this is the long way */
     font-size: 20px;
   }
 
+  nav > ul > li {
+    display: inline-block;
+    font-size: 0.75em;
+  }
+
   .signature {
     max-width: 250px;
   }
