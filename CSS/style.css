@@ -312,11 +312,11 @@ animation-timing-function: linear; this is the long way */
 
 /* text alignment */
 
-#hero .container {
+#hero {
   background-color: #4f4a46;
   color: #fffbfe;
-  padding: 10px;
-  margin: 10px;
+  width: auto;
+  margin: 0 10px;
 }
 
 #hero h1 {
