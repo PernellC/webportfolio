@@ -1,11 +1,3 @@
-/*
-Colors used:
-Primary Color (nickle): #5F7470;
-Secondary Color (quartz): #4F4A46;
-Background Color (white): #FFFBFE;
-Footer Color (gunmetal): #2B303A;
-Link Color (trolley grey): #7A7C7C;
-*/
 * {
   box-sizing: border-box;
 }
@@ -469,3 +461,12 @@ animation-timing-function: linear; this is the long way */
     display: table;
   }
 }
+
+/*
+Colors used:
+Primary Color (nickle): #5F7470;
+Secondary Color (quartz): #4F4A46;
+Background Color (white): #FFFBFE;
+Footer Color (gunmetal): #2B303A;
+Link Color (trolley grey): #7A7C7C;
+*/
