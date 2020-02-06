@@ -87,7 +87,6 @@ nav > ul > li > a:visited {
 a:hover,
 a:focus {
   color: white;
-  text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:active {
