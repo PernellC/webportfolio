@@ -282,6 +282,8 @@ animation-timing-function: linear; this is the long way */
 .xpert {
   font-family: 'Yellowtail', cursive;
   color: #69768c;
+  font-size: 50px;
+  text-align: center;
 }
 
 #work .row {
