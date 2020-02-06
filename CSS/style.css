@@ -144,7 +144,6 @@ nav > ul > li > a {
   display: block;
   padding: 10px 0;
   border-top: 1px solid #fffbfe;
-  transition: all 0.5s ease-in;
 }
 
 .navtoggle.responsive li:last-child {
@@ -225,16 +224,21 @@ animation-timing-function: linear; this is the long way */
 }
 
 .button.contact {
+.email {
   color: #fffbfe;
   background-color: transparent;
   text-transform: uppercase;
   border: 2px solid #fffbfe;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
   text-decoration: none;
   transition-duration: 0.4s;
   transition-property: background-color;
 }
 
 .button.contact:hover {
+.email:hover {
   color: #2b303a;
   background-color: #fffbfe;
   border: 2px solid #fffbfe;
@@ -277,6 +281,8 @@ animation-timing-function: linear; this is the long way */
   font-family: 'Faster One', cursive;
   text-transform: uppercase;
   color: #b35000;
+  font-size: 50px;
+  text-align: center;
 }
 
 .xpert {
