@@ -289,9 +289,25 @@ animation-timing-function: linear; this is the long way */
   border-bottom: 1px solid #5f7470;
 }
 
-#contact-section .container {
-  padding: 0 15px;
-  margin: 0 10px;
+#contact-section {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#contact-section .social li {
+  list-style-type: none;
+  font-size: 12px;
+  background-color: #2b303a;
+  padding: 5px 25px 0;
+  display: inline-block;
+}
+
+#contact-section .social {
+  text-align: center;
+}
+
+#contact-section .social ul {
+  padding: 0;
 }
 
 /* text alignment */
