@@ -438,6 +438,8 @@ animation-timing-function: linear; this is the long way */
     text-align: center;
   }
 
+  #contact-section .social li {
+    padding: 5px 75px 0;
   }
 
   .col-lg-7 {
