@@ -310,6 +310,7 @@ animation-timing-function: linear; this is the long way */
   color: #fffbfe;
   width: auto;
   margin: 0 10px;
+  text-align: center;
 }
 
 #hero h1 {
