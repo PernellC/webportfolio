@@ -430,6 +430,12 @@ animation-timing-function: linear; this is the long way */
     margin-right: auto;
   }
 
+  #hero .container {
+    max-width: 1200px;
+    width: auto;
+    text-align: center;
+  }
+
   .col-lg-7 {
     width: 60%;
   }
